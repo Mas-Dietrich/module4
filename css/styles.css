@@ -406,6 +406,26 @@ main .card section {
 main .card img {
   padding: 1rem;
 }
+main .card #fade {
+  -webkit-animation: fadeIn 5s;
+          animation: fadeIn 5s;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 main .card p {
   padding: 1rem 2vw;
 }
@@ -475,15 +495,12 @@ footer {
 @media only screen and (min-width: 60rem) {
   header, nav, main, footer {
     max-width: 60rem;
-    margin: auto;
+    margin: 0 auto;
   }
-  /*----------- BODY --------------*/
-  /*----------- HEADER --------------*/
   body {
     font-size: 16px;
     font-family: Verdana, sans-serif;
   }
-  /*----------- HEADER --------------*/
   div.topbar {
     background-color: black;
     color: white;
@@ -518,4 +535,8 @@ footer {
     flex-basis: 31.33%;
   }
   /*----------- FOOTER --------------*/
+  footer {
+    width: 100%;
+    display: block;
+  }
 } /* end of media query */
