@@ -1,0 +1,46 @@
+
+
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
+
+
+/*----------- HEADER --------------*/
+div.topbar {
+    background-color: black;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1rem 2vw;
+}
+header {
+    background-image: url(../images/header-medium-min.jpg);
+    height: 240px;
+    background-position: center;
+    color: white;
+}
+
+
+/*----------- NAVIGATION --------------*/
+    nav ul {margin-left: 2%;}
+    nav ul li {width: auto;}
+    nav ul li:first-child a {border-left: 1px solid #777;}
+    nav ul li:last-child a {border-right: 1px solid #777;}
+    nav ul li a{padding: .5rem 1rem;}
+
+
+/*----------- MAIN --------------*/
+
+main {
+    .card{flex-basis: 48%;}
+}
+
+/*----------- FOOTER --------------*/
+    

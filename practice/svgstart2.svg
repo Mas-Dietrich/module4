@@ -1,0 +1,12 @@
+<svg  version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+   <!-- The actual SVG shapes and paths go here -->
+   <rect x="1" y="1" width="20" height="20" fill="none" stroke="black" stroke-width="1" rx="4">
+   <animate attributeName="rx" values="0'2;4;6;8;6;4;2;0" dur="8s" repeatCount="indefinite" />
+   </rect>
+   <line x1="11" y1="18" x2="11" y2="10" stroke-width="2" stroke="brown">
+   <animate attributeName="stroke-width" values="2;4;6;8;6;4;2" dur="8s" repeatCount="indefinite" />
+   </line>
+   <polyline points= "11,2 6,7 16,7" fill="green" />
+   <polyline points= "11,5 4,10 18,10" fill="green" />
+   <polyline points= "11,8 3,13 19,13" fill="green" />
+</svg>
